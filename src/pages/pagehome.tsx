@@ -1,7 +1,6 @@
 // src/pages/pagehome.tsx
 import { Link } from 'react-router-dom';
 import Banniere from '../composants/bannière';
-import VideoBloc from '../composants/videobloc';
 
 
 function Home() {
