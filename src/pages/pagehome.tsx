@@ -50,14 +50,22 @@ function Home() {
       {/* 3) Vidéo de présentation */}
       <section className="text-black px-6 py-12 max-w-6xl mx-auto">
         <h2 className="text-black text-3xl font-bold mb-6">Vidéo de présentation</h2>
-        <VideoBloc
-          src="/video/videoppp.mp4"
+        {/* <VideoBloc
+          src="https://youtu.be/8nkKBE67BZs"
           poster="/images/covercideo/jsp.png" //photo couverture video
           controls
           muted
         
           title="Présentation"
-        />
+        /> */}
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8nkKBE67BZs"
+        title="Vidéo de présentation"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
       </section>
 
       {/* 4) Liens vers pages projets */}
