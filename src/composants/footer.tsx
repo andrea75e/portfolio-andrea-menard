@@ -5,7 +5,7 @@ function Footer() {
       <p className="mb-2 text-base">Dernière mise à jour : 2025</p>
       <div className="flex space-x-4">
         <a href="mailto:andreamenard23@gmail.com">
-          <button className="text-white hover:text-gray-500 px-4 py-2 bg-black-600 rounded hover:bg-gray-700">
+          <button className="!bg-black text-white hover:text-gray-500 px-4 py-2 bg-black-600 rounded hover:bg-gray-700">
             Contactez-moi
           </button>
         </a>
@@ -14,7 +14,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="text-white hover:text-gray-500 px-4 py-2 bg-black-600 rounded hover:bg-gray-700">
+          <button className="!bg-black text-white hover:text-gray-500 px-4 py-2 bg-black-600 rounded hover:bg-gray-700">
             LinkedIn
           </button>
         </a>

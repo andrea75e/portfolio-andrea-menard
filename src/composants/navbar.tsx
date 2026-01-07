@@ -39,7 +39,7 @@ export default function Navbar() {
           onMouseEnter={() => setShowFormations(true)}
           onMouseLeave={() => setShowFormations(false)}
         >
-          <button className="font-black text-white hover:text-gray-500 transition-colors pb-2">
+          <button className="!bg-black font-black text-white hover:text-gray-500 transition-colors pb-2">
             Formations ▾
           </button>
           {showFormations && (
@@ -78,7 +78,7 @@ export default function Navbar() {
           onMouseEnter={() => setShowProjets(true)}
           onMouseLeave={() => setShowProjets(false)}
         >
-          <button className="font-black text-white hover:text-gray-500 transition-colors pb-2">
+          <button className="!bg-black font-black text-white hover:text-gray-500 transition-colors pb-2">
             Projets ▾
           </button>
           {showProjets && (
@@ -112,7 +112,7 @@ export default function Navbar() {
           onMouseEnter={() => setShowActivites(true)}
           onMouseLeave={() => setShowActivites(false)}
         >
-          <button className="font-black text-white hover:text-gray-500 transition-colors pb-2">
+          <button className="!bg-black font-black text-white hover:text-gray-500 transition-colors bg-black pb-2">
             Activités ▾
           </button>
           {showActivites && (

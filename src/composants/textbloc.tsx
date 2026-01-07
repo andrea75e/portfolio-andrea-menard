@@ -20,7 +20,7 @@ const TextBloc: React.FC<TextBlocProps> = ({ title, text, list }) => {
     <div className="mb-6">
       {title && <h2 className="text-2xl font-bold mb-3 text-black">{title}</h2>}
       
-      {text && <p className="text-black leading-relaxed mb-3">{text}</p>}
+      {text && <p className="text-justify text-black leading-relaxed mb-3">{text}</p>}
       
       {list && list.length > 0 && (
         <ul className="list-disc list-inside space-y-2 text-gray-300 ml-4">
