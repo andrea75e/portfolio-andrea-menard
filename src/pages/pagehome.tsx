@@ -16,7 +16,7 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Texte */}
           <article className="md:col-span-2 rounded-lg shadow p-6">
-            <p className="text-black leading-relaxed">
+            <p className="text-justify text-black leading-relaxed">
               Étudiante en BUT Génie Mécanique et Productique à l’IUT d’Orléans, formée aux étapes clés du
               cycle de vie d’un produit — de la conception à l’industrialisation et à l’organisation de la
               production — avec une solide culture de projets et de mise en situation professionnelle. En
@@ -25,7 +25,7 @@ function Home() {
               industriels exigeants, cette expérience renforce mes réflexes de rigueur, de qualité et
               d’amélioration continue.
             </p>
-            <p className="text-black leading-relaxed mt-4">
+            <p className="text-justify text-black leading-relaxed mt-4">
               Passionnée d’automobile, de moto, de mécanique et de photo, mon projet est d’évoluer vers des fonctions
               d’ingénieure motoriste ou en architecture véhicule, à l’interface entre conception, simulation,
               essais et optimisation des groupes motopropulseurs, avec une attention portée à la performance
