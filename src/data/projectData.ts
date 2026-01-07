@@ -18,21 +18,21 @@ export const projectsData: ProjectData[] = [
     title: "Convoyeur de transport de plaquettes et cartes électroniques",
     description: "Projet réalisé en entreprise chez STMicroelectronics",
     category: 'pro',
-    // sections: [
-    //   {
-    //     title: "Contexte du projet",
-    //     text: "Dans le cadre de mon alternance...",
-    //     images: ['/images/projet1.jpg']
-    //   },
-    //   {
-    //     title: "Technologies et compétences",
-    //     list: [
-    //       "Conception 3D avec SolidWorks",
-    //       "Impression 3D",
-    //       "Assemblage mécanique"
-    //     ]
-    //   }
-    // ]
+    sections: [
+      {
+        title: "Contexte du projet",
+        text: "Dans le cadre de mon alternance...",
+        images: ['/images/projet1.jpg']
+      },
+      {
+        title: "Technologies et compétences",
+        list: [
+          "Conception 3D avec SolidWorks",
+          "Impression 3D",
+          "Assemblage mécanique"
+        ]
+      }
+    ]
   },
    {
     id: 2,
