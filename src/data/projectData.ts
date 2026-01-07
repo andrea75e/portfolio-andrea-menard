@@ -18,80 +18,80 @@ export const projectsData: ProjectData[] = [
     title: "Convoyeur de transport de plaquettes et cartes électroniques",
     description: "Projet réalisé en entreprise chez STMicroelectronics",
     category: 'pro',
-    sections: [
-      {
-        title: "Contexte du projet",
-        text: "Dans le cadre de mon alternance...",
-        images: ['/images/projet1.jpg']
-      },
-      {
-        title: "Technologies et compétences",
-        list: [
-          "Conception 3D avec SolidWorks",
-          "Impression 3D",
-          "Assemblage mécanique"
-        ]
-      }
-    ]
+    // sections: [
+    //   {
+    //     title: "Contexte du projet",
+    //     text: "Dans le cadre de mon alternance...",
+    //     images: ['/images/projet1.jpg']
+    //   },
+    //   {
+    //     title: "Technologies et compétences",
+    //     list: [
+    //       "Conception 3D avec SolidWorks",
+    //       "Impression 3D",
+    //       "Assemblage mécanique"
+    //     ]
+    //   }
+    // ]
   },
    {
     id: 2,
-    title: "Outillage de mide en position pour wire bonding",
+    title: "Outillage de mise en position pour wire bonding",
     description: "Projet réalisé en entreprise chez STMicroelectronics",
     category: 'pro',
-    sections: [
-      {
-        title: "Contexte du projet",
-        text: "Dans le cadre de mon alternance...",
-        images: ['/images/projet2.jpg']
-      },
-      {
-        title: "Technologies et compétences",
-        list: [
-          "Conception 3D avec SolidWorks",
-          "Impression 3D",
-          "Assemblage mécanique"
-        ]
-      }
-    ]
+    // sections: [
+    //   {
+    //     title: "Contexte du projet",
+    //     text: "Dans le cadre de mon alternance...",
+    //     images: ['/images/projet2.jpg']
+    //   },
+    //   {
+    //     title: "Technologies et compétences",
+    //     list: [
+    //       "Conception 3D avec SolidWorks",
+    //       "Impression 3D",
+    //       "Assemblage mécanique"
+    //     ]
+    //   }
+    // ]
   },
   {
     id: 3,
     title: "Industrialisation chaîne numérique S4 : Fabrication d'une genouillère en fonderie",
     description: "Projet académique réalisé lors du 4e semestre de mon BUT GMP",
     category: 'scolaire',
-    sections: [
-      {
-        title: "Description",
-        text: "Projet de conception mécanique...",
-        images: ['/images/projet3.jpg']
-      }
-    ]
+    // sections: [
+    //   {
+    //     title: "Description",
+    //     text: "Projet de conception mécanique...",
+    //     images: ['/images/projet3.jpg']
+    //   }
+    // ]
   },
    {
     id: 4,
     title: "Bureau d'études n° 6 : réalisation de l'assemblage de la transmission d\'un Segway",
     description: "Projet académique réalisé lors du 4e semestre de mon BUT GMP",
     category: 'scolaire',
-    sections: [
-      {
-        title: "Description",
-        text: "Projet de conception mécanique...",
-        images: ['/images/projet3.jpg']
-      }
-    ]
+    // sections: [
+    //   {
+    //     title: "Description",
+    //     text: "Projet de conception mécanique...",
+    //     images: ['/images/projet3.jpg']
+    //   }
+    // ]
   },
   {
     id: 5,
     title: "Projet de fin d\'études : conception d\'un triporteur de transport d\'enfants",
     description: "Projet académique réalisé lors des 5e et 6e semestres de mon BUT GMP",
     category: 'scolaire',
-    sections: [
-      {
-        title: "Description",
-        text: "Projet de conception mécanique...",
-        images: ['/images/projet3.jpg']
-      }
-    ]
+    // sections: [
+    //   {
+    //     title: "Description",
+    //     text: "Projet de conception mécanique...",
+    //     images: ['/images/projet3.jpg']
+    //   }
+    // ]
   }
 ]
