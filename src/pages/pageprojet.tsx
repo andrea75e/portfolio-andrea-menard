@@ -66,15 +66,10 @@ const ProjectPage: React.FC = () => {
       sections: [
         {
           title: "Description du projet",
-          text: "Dans le cadre de mon activité, j’ai eu à re-concevoir un outil destiné au maintien de boîtiers utilisés comme composants électroniques. Cet outil devait garantir une fixation précise et stable des boîtiers pendant une opération délicate : une pointe mécanisée effectue le dépôt et la découpe de fils métalliques permettant de relier les pattes du composant à la puce située au centre du boîtier. Cette modification a permis d’améliorer l’efficience et la fiabilité de l’assemblage, en optimisant le positionnement des boîtiers et en assurant une connexion électrique de qualité entre les différentes parties du composant."
+          text: "Dans le cadre de mon activité, j’ai eu à re-concevoir un outil destiné au maintien de boîtiers utilisés comme composants électroniques. Cet outil devait garantir une fixation précise et stable des boîtiers pendant une opération délicate : une pointe mécanisée effectue le dépôt et la découpe de fils métalliques permettant de relier les pattes du composant à la puce située au centre du boîtier. Cette modification a permis d’améliorer l’efficience et la fiabilité de l’assemblage, en optimisant le positionnement des boîtiers et en assurant une connexion électrique de qualité entre les différentes parties du composant.",
+          images: ['/images/outillage/smitpak.png']
         },
          {
-          text: "J’ai commencé par refaire toute la conception assistée par ordinateur (CAO) de l’outil afin de l’adapter aux trois types de boîtiers différents que nous utilisons. Cette étape a été essentielle pour garantir que l’outil puisse maintenir chaque type de boîtier avec précision et stabilité lors des opérations de dépôt et de coupe des fils métalliques. Une fois les modèles CAO validés, nous avons procédé à l’usinage interne de certaines pièces de l’outil, réalisées directement dans notre atelier pour répondre aux besoins spécifiques de l’assemblage."
-        },
-        {
-          text: "Par ailleurs, certaines pièces très précises, notamment celles nécessitant une découpe au fil ou une rectification fine, ont été confiées à des sous-traitants spécialisés. Ce choix a permis de bénéficier de savoir-faire et d’équipements adaptés à ces opérations délicates, garantissant ainsi la qualité et la fiabilité de l’ensemble de l’outil conçu pour l’assemblage des composants électroniques. Cette combinaison de réalisation interne et de sous-traitance a optimisé les délais, les coûts et la qualité finale du prototypage industriel."
-        },
-        {
           title: "Objectifs du projet",
           list: [
             "Reconcevoir un outil capable de maintenir avec précision trois types différents de boîtiers destinés à être des composants électroniques.",
@@ -85,9 +80,14 @@ const ProjectPage: React.FC = () => {
             "Optimiser la qualité, la fiabilité et l’efficacité globale du processus d’assemblage des composants électroniques grâce à cet outil repensé."
           ]
         },
+         {
+          text: "J’ai commencé par refaire toute la conception assistée par ordinateur (CAO) de l’outil afin de l’adapter aux trois types de boîtiers différents que nous utilisons. Cette étape a été essentielle pour garantir que l’outil puisse maintenir chaque type de boîtier avec précision et stabilité lors des opérations de dépôt et de coupe des fils métalliques. Une fois les modèles CAO validés, nous avons procédé à l’usinage interne de certaines pièces de l’outil, réalisées directement dans notre atelier pour répondre aux besoins spécifiques de l’assemblage.",
+          images: ['/images/outillage/TO220.png','/images/outillage/TO247.png']
+        },
         {
-          text: "Photos non disponibles pour le moment."
-        }
+          text: "Par ailleurs, avec certaines pièces très précises, j'ai réalisé des simulations d'efforts sur SolidWorks Simulation afin de vérifier la déformation des composants et le déplacements des surfaces subissant les efforts. Celles nécessitant une découpe au fil ou une rectification fine, ont été confiées à des sous-traitants spécialisés. Ce choix a permis de bénéficier de savoir-faire et d’équipements adaptés à ces opérations délicates, garantissant ainsi la qualité et la fiabilité de l’ensemble de l’outil conçu pour l’assemblage des composants électroniques. Cette combinaison de réalisation interne et de sous-traitance a optimisé les délais, les coûts et la qualité finale du prototypage industriel.",
+          images: ['/images/outillage/simulation.png','/images/outillage/simulation2.png']
+        },
       ]
     },
     3: { 
@@ -168,6 +168,129 @@ const ProjectPage: React.FC = () => {
           title: "Mon rôle",
           text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
           images: ['/images/triporteur/triporteur.png']
+        },
+      ]
+    },
+    6: { 
+      title: 'Travaux Pratiques : Utilisation de l\'électroérosion', 
+      description: 'Projet académique réalisé lors du 6e semestre de mon BUT GMP',
+      category: 'scolaire',
+      sections: [
+        {
+          title: "Description du projet",
+          text: "Lors de travaux pratiques, après un usinage sur le centre d'usinage à commande numérique Hardinge VMC 6OOII, nous avions à découper la pièce à l'aide de la découpe par électroérosion. Ce TP fut principalement une découverte du procédé. Voici comment il s'est déroulé :",
+          images: ['/images/projet6/aaa.jpg']
+        },
+        {
+          title: "Objectifs du TP",
+          list: [
+            "Prendre en main de logiciel utilisé pour l'électroérosion",
+            "Réaliser une découpe par électroérosion après l'usinage d'une pièce en acier.",
+          ],
+          text: ""
+        },
+        {
+          title: "Déroulé du TP",
+          text: "Pour commencer, mes deux camarades ont commencé par mettre en place le centre d'usinage hardinge afin de réaliser la pièce demandée. Pendant ce temps, de l'autre côté de la pièce, je m'occupais de la lecture du document expliquant comment utiliser la machine de découpe. J'ai pu m'approprier le procédé afin de pouvoir fournir une découpe rapide et efficace de ma pièce.",
+          images: ['/images/projet6/aaaa.png']
+        },
+        {
+          text: "Avant de lancer toute découpe, il m'a fallu sabler la pièce afin que le fil puisse bien venir palper le bord de la pièce sans se tordre et risquer de se casser.",
+          images: ['/images/projet6/aaaa.png']
+        },
+         {
+          text: "Par la suite, j'ai pu me pencher sur la programmation de ma pièce. Pour commencer, j'ai exporté le dxf de la pièce usinée, avec des dentures autour de la partie supérieure que nous avons à découper au fil. Une fois ce dxf récupéré, j'ai rentré mes conditions de coupe ainsi que les dimensions de la pièce et son matériau dans le logiciel, puis j'ai défini ma trajectoire de découpe, en découpe extérieure. J'ai ensuite pu lancer ma simulation, et mettre ma pièce en position sur les cales, le plus près possible du bord car le fil découpe presque le bord de ma pièce. Une fois la pièce mise en position, il faut la palper avec le fil en le positionnant à l'endroit que j'ai défini lorsque j'ai préparé ma trajectoire de découpe. Une fois toutes ces étapes respectées, j'ai pu lancer ma découpe. Mi découpe, après la découpe des dents, il a fallu rajouter un aimant sur la pièce afin que celle-ci soit maintenue et que la partie découpée ne penche pas, ce qui pourrait plier et abîmer voire couper le fil.",
+          images: ['/images/projet6/aaaa.png']
+        },
+      ]
+    },
+     7: { 
+      title: 'Travaux Pratiques : Taraudage par déformation de matière et fluoperçage', 
+      description: 'Projet académique réalisé lors du 6e semestre de mon BUT GMP',
+      category: 'scolaire',
+      sections: [
+        {
+          title: "Description du projet",
+          text: "Lors de travaux pratiques, nous avons découvert le principe du fluoperçage et du taraudage par déformation de matière. Nous avions à les mettre en place sur le centre d'usinage à commande numérique SOMAB DIAM 600.",
+          images: ['/images/triporteur/triporteur2.jpg']
+        },
+        {
+          title: "Objectifs du projet",
+          list: [
+            "Réaliser une étude de l’existant afin de proposer une solution adaptée aux contraintes de la crèche.",
+            "Concevoir et dimensionner le triporteur ainsi que son système d'assistance électrique.",
+            "Intégrer le système d'assistance électrique dans le triporteur.",
+            "Assurer le respect des normes de sécurité et de confort pour les enfants et les adultes.",
+            "Garantir la stabilité et la maniabilité du triporteur dans toutes les conditions.",
+            "Collaborer régulièrement avec les représentants de la métropole via des réunions de suivi."
+          ]
+        },
+        {
+          title: "Mon rôle",
+          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
+          images: ['/images/triporteur/triporteur.png']
+        },
+      ]
+    },
+    8: { 
+      title: 'Projet de fin d\'études : conception d\'un triporteur de transport d\'enfants', 
+      description: 'Projet académique réalisé durant le BUT GMP',
+      category: 'scolaire',
+      sections: [
+        {
+          title: "Description du projet",
+          text: "Notre projet de fin de BUT consiste en la conception et la fabrication d’un triporteur électrique destiné à une crèche de la métropole. Ce triporteur doit pouvoir transporter 6 enfants de moins de 3 ans ainsi que 2 adultes sur une distance d’environ 10 km. Plusieurs contraintes importantes viennent compléter ce besoin, notamment un toit amovible pour protéger du soleil et de la pluie, l’obligation pour un adulte d’être assis avec les enfants à l’avant du triporteur, une sécurité renforcée avec des attaches à trois points pour tous les passagers, des rangements dont certains doivent maintenir la température des aliments, et une stabilité maximale en toute situation. Le projet vise donc à répondre à ces exigences tout en concevant un véhicule fonctionnel et sécurisé.",
+          images: ['/images/triporteur/triporteur2.jpg']
+        },
+        {
+          title: "Objectifs du projet",
+          list: [
+            "Réaliser une étude de l’existant afin de proposer une solution adaptée aux contraintes de la crèche.",
+            "Concevoir et dimensionner le triporteur ainsi que son système d'assistance électrique.",
+            "Intégrer le système d'assistance électrique dans le triporteur.",
+            "Assurer le respect des normes de sécurité et de confort pour les enfants et les adultes.",
+            "Garantir la stabilité et la maniabilité du triporteur dans toutes les conditions.",
+            "Collaborer régulièrement avec les représentants de la métropole via des réunions de suivi."
+          ]
+        },
+        {
+          title: "Mon rôle",
+          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
+          images: ['/images/triporteur/triporteur.png']
+        },
+      ]
+    },
+    9: { 
+      title: 'Plasturgie : usinage, pliage et soudure', 
+      description: 'Projet réalisé en entreprise chez STMicroelectronics',
+      category: 'pro',
+      sections: [
+        {
+          title: "Description",
+          text: "Pendant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voisin : l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs petits projets à réaliser autour de la plasturgie, que ce soit de l'usinage, du pliage, de la découpe, ou encore de la soudure plastique. De fait j'ai réalisé plusieurs pièces et assemblages comme par exemple un support de racle.",
+          images: ['/images/projet9/support1.jpg']
+        },
+        {
+          text: "Pour réaliser ce support, j'ai d'abord commencé par usiner les cinq pièces sur la petite fraiseuse CN, en PPH épaisseur 20mm et 10mm. J'ai tout d'abord surfacé et contourné les 4 pièces qui servent à poser la racle, puis ensuite j'ai découpé la plaque support du dessous. Par la suite, j'ai ébavuré mes pièces pour pouvoir les souder entre elles. J'ai commencé par souder les pièces support deux à deux à l'aide d'un lester et de cordon de PPH, puis j'ai ensuite soudé les deux bloc sur la plaque support, tout en le maintenant de chaque côté pour ne pas qu'il soit trop sollicité en flexion et qu'il se déforme. ",
+          images: ['/images/projet9/support2.jpg']
+        },
+      
+      ]
+    },
+    10: { 
+      title: 'Chaudronnerie : usinage, pliage et soudure',
+      description: 'Projet réalisé en entreprise chez STMicroelectronics',
+      category: 'pro',
+      sections: [
+        {
+          title: "Description",
+          text: "Durant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voiosin: l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs fois l'opportunité d'aller aider certains collègues du côté de la chaudronnerie, ou j'ai pu réaliser du pliage et de la soudure de pièces principalement en acier inoxydable.",
+          images: ['/images/projet10/aaa.jpg']
+        },
+        {
+          title: "Mon rôle",
+          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
+          images: ['/images/projet10/aa.png']
         },
       ]
     }
