@@ -284,13 +284,13 @@ const ProjectPage: React.FC = () => {
       sections: [
         {
           title: "Description",
-          text: "Durant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voiosin: l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs fois l'opportunité d'aller aider certains collègues du côté de la chaudronnerie, ou j'ai pu réaliser du pliage et de la soudure de pièces principalement en acier inoxydable.",
+          text: "Durant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voisin: l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs fois l'opportunité d'aller aider certains collègues du côté de la chaudronnerie, ou j'ai pu réaliser du pliage et de la soudure de pièces principalement en acier inoxydable.",
           images: ['/images/projet10/aaa.jpg']
         },
         {
-          title: "Mon rôle",
-          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
-          images: ['/images/projet10/aa.png']
+          title: "Un exemple",
+          text: "Pour tester les soudures d'angle, j'ai réalisé un petit cadre de 20x20cm, en tube de 20x20x1mm d'épaisseur. J'ai commencé par couper les quatres tubes à 45° à l'aide d'une scie mécanique. Après les avoir ébavurés un à un, j'ai pu tout d'abord les pointer, pour ensuite les souder avec apport de matière sur les côtés, et sans apport de matière dans les angles.",
+          images: ['/images/projet10/soudure.jpg']
         },
       ]
     }
