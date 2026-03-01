@@ -212,7 +212,7 @@ const ProjectPage: React.FC = () => {
         {
           title: "Description du TP",
           text: "Lors de travaux pratiques, nous avons découvert le principe du fluoperçage et du taraudage par déformation de matière. Nous avions à les mettre en place sur le centre d'usinage à commande numérique SOMAB DIAM 600.",
-          images: ['']
+    
         },
         
         {
