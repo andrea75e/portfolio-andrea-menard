@@ -210,43 +210,39 @@ const ProjectPage: React.FC = () => {
       category: 'scolaire',
       sections: [
         {
-          title: "Description du projet",
+          title: "Description du TP",
           text: "Lors de travaux pratiques, nous avons découvert le principe du fluoperçage et du taraudage par déformation de matière. Nous avions à les mettre en place sur le centre d'usinage à commande numérique SOMAB DIAM 600.",
-          images: ['/images/triporteur/triporteur2.jpg']
+          images: ['']
         },
         
         {
-          title: "Objectif",
+          title: "Objectif du fluoperçage",
           text: "L'objectif principal était de maîtriser le fluoperçage, qui utilise la chaleur de friction pour refouler la matière et créer un collet, ainsi que le taraudage par déformation, une technique permettant de former un filetage par compression plastique plutôt que par coupe. Cette approche, particulièrement adaptée aux parois minces, permet d'augmenter significativement la résistance mécanique des fixations tout en optimisant la productivité. Ce travail a nécessité un paramétrage précis de la commande numérique, notamment pour gérer les vitesses de rotation élevées indispensables à la montée en température du matériau, et m'a permis d'approfondir mes compétences techniques en fabrication mécanique et en gestion de processus industriels complexes.",
           images: ['/images/projet7/pointe.jpg','/images/projet7/trou.jpg']
+        },
+        {
+          title: "Objectif du taraudage par déformation de matière",
+          text: "Le taraudage par déformation est un procédé de formage à froid qui crée un filetage sans enlèvement de matière. Contrairement au taraudage traditionnel, on utilise un taraud à refouler (ou taraud à lobes), un outil en carbure ou en acier rapide dépourvu de tranchants.Sous l'effet d'une pression radiale intense, l'outil déplace le métal pour le refouler dans les filets, comprimant ainsi la structure moléculaire du matériau au lieu de sectionner ses fibres. Cette technique, idéale pour les métaux ductiles comme l'aluminium ou l'inox, augmente considérablement la dureté de surface et la résistance à l'arrachement. L'absence totale de copeaux élimine les risques de bourrage et permet des cadences de production nettement plus élevées.",
+          images: ['/images/projet7/taraud.jpg']
         },
       ]
     },
     8: { 
-      title: 'Projet de fin d\'études : conception d\'un triporteur de transport d\'enfants', 
-      description: 'Projet académique réalisé durant le BUT GMP',
+      title: 'Saé Résolution de problème : production d\'un support de téléphone', 
+      description: 'Projet académique réalisé lors du 5e semestre de mon BUT GMP',
       category: 'scolaire',
       sections: [
         {
-          title: "Description du projet",
-          text: "Notre projet de fin de BUT consiste en la conception et la fabrication d’un triporteur électrique destiné à une crèche de la métropole. Ce triporteur doit pouvoir transporter 6 enfants de moins de 3 ans ainsi que 2 adultes sur une distance d’environ 10 km. Plusieurs contraintes importantes viennent compléter ce besoin, notamment un toit amovible pour protéger du soleil et de la pluie, l’obligation pour un adulte d’être assis avec les enfants à l’avant du triporteur, une sécurité renforcée avec des attaches à trois points pour tous les passagers, des rangements dont certains doivent maintenir la température des aliments, et une stabilité maximale en toute situation. Le projet vise donc à répondre à ces exigences tout en concevant un véhicule fonctionnel et sécurisé.",
-          images: ['/images/triporteur/triporteur2.jpg']
+          title: "Présentation et enjeux du projet",
+          text: "Ce projet de travaux pratiques, réalisé lors du semestre 5 du BUT GMP à l'IUT d'Orléans, consistait à industrialiser une nouvelle version d'un support de téléphone en bois (MDF de 3 mm). L'objectif principal était de basculer la production d'une ancienne machine vers un nouveau centre de découpe et gravure laser plus puissant, tout en résolvant des problèmes de qualité identifiés. En tant que groupe dédié au support de téléphone, nous avons dû répondre à deux défis majeurs : augmenter la productivité pour réduire les coûts et améliorer la conception pour pallier la fragilité des zones courbées signalée par les clients. Nous avons également dû intégrer de nouveaux matériaux et proposer des options de personnalisation par gravure pour satisfaire les exigences du service marketing",
+          images: ['/images/triporteur/']
         },
         {
-          title: "Objectifs du projet",
-          list: [
-            "Réaliser une étude de l’existant afin de proposer une solution adaptée aux contraintes de la crèche.",
-            "Concevoir et dimensionner le triporteur ainsi que son système d'assistance électrique.",
-            "Intégrer le système d'assistance électrique dans le triporteur.",
-            "Assurer le respect des normes de sécurité et de confort pour les enfants et les adultes.",
-            "Garantir la stabilité et la maniabilité du triporteur dans toutes les conditions.",
-            "Collaborer régulièrement avec les représentants de la métropole via des réunions de suivi."
-          ]
+          text: "images non disponibles pour le moment"
         },
         {
-          title: "Mon rôle",
-          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
-          images: ['/images/triporteur/triporteur.png']
+          title: "Méthodologie",
+          text: "Pour mener à bien cette mission, nous avons appliqué la démarche d'amélioration continue DMAICS (Définir, Mesurer, Analyser, Innover, Contrôler, Standardiser) afin de piloter les essais de manière rigoureuse. La mise en place technique s'est déroulée sur la machine SOMAB DIAM 600, nécessitant une maîtrise du logiciel RDCam pour le paramétrage des calques de découpe et de gravure. Nous avons dû ajuster précisément les puissances et les vitesses pour éviter les brûlures excessives ou les traces noires sur la face inférieure, défauts fréquents lors du passage sur une machine plus puissante. Enfin, l'optimisation a porté sur le remplacement des motifs d'assouplissement par des géométries plus robustes, comme les vagues simples ou les poches losanges, afin de garantir la flexibilité du support sans compromettre sa résistance mécanique."
         },
       ]
     },
