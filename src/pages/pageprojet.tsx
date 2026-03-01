@@ -196,11 +196,11 @@ const ProjectPage: React.FC = () => {
         },
         {
           text: "Avant de lancer toute découpe, il m'a fallu sabler la pièce afin que le fil puisse bien venir palper le bord de la pièce sans se tordre et risquer de se casser.",
-          images: ['/images/projet6/aaaa.png']
+          images: ['/images/projet6/sablage.jpg']
         },
          {
           text: "Par la suite, j'ai pu me pencher sur la programmation de ma pièce. Pour commencer, j'ai exporté le dxf de la pièce usinée, avec des dentures autour de la partie supérieure que nous avons à découper au fil. Une fois ce dxf récupéré, j'ai rentré mes conditions de coupe ainsi que les dimensions de la pièce et son matériau dans le logiciel, puis j'ai défini ma trajectoire de découpe, en découpe extérieure. J'ai ensuite pu lancer ma simulation, et mettre ma pièce en position sur les cales, le plus près possible du bord car le fil découpe presque le bord de ma pièce. Une fois la pièce mise en position, il faut la palper avec le fil en le positionnant à l'endroit que j'ai défini lorsque j'ai préparé ma trajectoire de découpe. Une fois toutes ces étapes respectées, j'ai pu lancer ma découpe. Mi découpe, après la découpe des dents, il a fallu rajouter un aimant sur la pièce afin que celle-ci soit maintenue et que la partie découpée ne penche pas, ce qui pourrait plier et abîmer voire couper le fil.",
-          images: ['/images/projet6/aaaa.png']
+          images: ['/images/projet6/pc.jpg','/images/projet6/machine.jpg','/images/projet6/piece.jpg']
         },
       ]
     },
@@ -214,21 +214,11 @@ const ProjectPage: React.FC = () => {
           text: "Lors de travaux pratiques, nous avons découvert le principe du fluoperçage et du taraudage par déformation de matière. Nous avions à les mettre en place sur le centre d'usinage à commande numérique SOMAB DIAM 600.",
           images: ['/images/triporteur/triporteur2.jpg']
         },
+        
         {
-          title: "Objectifs du projet",
-          list: [
-            "Réaliser une étude de l’existant afin de proposer une solution adaptée aux contraintes de la crèche.",
-            "Concevoir et dimensionner le triporteur ainsi que son système d'assistance électrique.",
-            "Intégrer le système d'assistance électrique dans le triporteur.",
-            "Assurer le respect des normes de sécurité et de confort pour les enfants et les adultes.",
-            "Garantir la stabilité et la maniabilité du triporteur dans toutes les conditions.",
-            "Collaborer régulièrement avec les représentants de la métropole via des réunions de suivi."
-          ]
-        },
-        {
-          title: "Mon rôle",
-          text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
-          images: ['/images/triporteur/triporteur.png']
+          title: "Objectif",
+          text: "L'objectif principal était de maîtriser le fluoperçage, qui utilise la chaleur de friction pour refouler la matière et créer un collet, ainsi que le taraudage par déformation, une technique permettant de former un filetage par compression plastique plutôt que par coupe. Cette approche, particulièrement adaptée aux parois minces, permet d'augmenter significativement la résistance mécanique des fixations tout en optimisant la productivité. Ce travail a nécessité un paramétrage précis de la commande numérique, notamment pour gérer les vitesses de rotation élevées indispensables à la montée en température du matériau, et m'a permis d'approfondir mes compétences techniques en fabrication mécanique et en gestion de processus industriels complexes.",
+          images: ['/images/projet7/pointe.jpg','/images/projet7/trou.jpg']
         },
       ]
     },
@@ -272,7 +262,7 @@ const ProjectPage: React.FC = () => {
         },
         {
           text: "Pour réaliser ce support, j'ai d'abord commencé par usiner les cinq pièces sur la petite fraiseuse CN, en PPH épaisseur 20mm et 10mm. J'ai tout d'abord surfacé et contourné les 4 pièces qui servent à poser la racle, puis ensuite j'ai découpé la plaque support du dessous. Par la suite, j'ai ébavuré mes pièces pour pouvoir les souder entre elles. J'ai commencé par souder les pièces support deux à deux à l'aide d'un lester et de cordon de PPH, puis j'ai ensuite soudé les deux bloc sur la plaque support, tout en le maintenant de chaque côté pour ne pas qu'il soit trop sollicité en flexion et qu'il se déforme. ",
-          images: ['/images/projet9/support2.jpg']
+          images: ['/images/projet9/usinage.jpg','/images/projet9/soudure.jpg','/images/projet9/support.jpg']
         },
       
       ]
