@@ -26,7 +26,7 @@ function App() {
         {/* Contenu principal */}
         <main className="flex-grow">
           <Routes>
-            {/* ✅ Redirection par défaut vers Home */}
+            {/* ✅ Redirection par défaut vers Home   */}
             <Route path="/" element={<Navigate to="/Home" replace />} />
 
             {/* ✅ Page d'accueil */}
