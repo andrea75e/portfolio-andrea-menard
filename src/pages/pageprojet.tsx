@@ -234,15 +234,32 @@ const ProjectPage: React.FC = () => {
       sections: [
         {
           title: "Présentation et enjeux du projet",
-          text: "Ce projet de travaux pratiques, réalisé lors du semestre 5 du BUT GMP à l'IUT d'Orléans, consistait à industrialiser une nouvelle version d'un support de téléphone en bois (MDF de 3 mm). L'objectif principal était de basculer la production d'une ancienne machine vers un nouveau centre de découpe et gravure laser plus puissant, tout en résolvant des problèmes de qualité identifiés. En tant que groupe dédié au support de téléphone, nous avons dû répondre à deux défis majeurs : augmenter la productivité pour réduire les coûts et améliorer la conception pour pallier la fragilité des zones courbées signalée par les clients. Nous avons également dû intégrer de nouveaux matériaux et proposer des options de personnalisation par gravure pour satisfaire les exigences du service marketing",
+          text: "Ce projet, réalisé lors du semestre 5 du BUT GMP à l'IUT d'Orléans, s'inscrit dans une démarche de résolution de problème industriel (SAé). L’enjeu était de moderniser la production d’un support de téléphone en MDF (3 mm) en basculant la fabrication vers une nouvelle machine laser plus puissante, tout en répondant à des retours clients critiques.",
           images: ['/images/projet8/supporttel.jpeg']
         },
         {
-          text: "images non disponibles pour le moment"
+          title: "Objectifs du projet",
+          list: [
+            "Productivité & Coûts : Rentabiliser l'investissement de la nouvelle machine en optimisant les trajectoires pour réduire les temps de cycle.",
+            "Qualité & Fiabilité : Éliminer les défauts esthétiques (brûlures prononcées, traces de carbonisation) et résoudre la fragilité structurelle des zones de flexion.",
+            "Innovation & Diversification : Développer une version premium intégrant du PMMA transparent (2 mm) et des options de personnalisation par gravure.",
+          ]
         },
         {
-          title: "Méthodologie",
-          text: "Pour mener à bien cette mission, nous avons appliqué la démarche d'amélioration continue DMAICS (Définir, Mesurer, Analyser, Innover, Contrôler, Standardiser) afin de piloter les essais de manière rigoureuse. La mise en place technique s'est déroulée sur la machine SOMAB DIAM 600, nécessitant une maîtrise du logiciel RDCam pour le paramétrage des calques de découpe et de gravure. Nous avons dû ajuster précisément les puissances et les vitesses pour éviter les brûlures excessives ou les traces noires sur la face inférieure, défauts fréquents lors du passage sur une machine plus puissante. Enfin, l'optimisation a porté sur le remplacement des motifs d'assouplissement par des géométries plus robustes, comme les vagues simples ou les poches losanges, afin de garantir la flexibilité du support sans compromettre sa résistance mécanique."
+          title: "Démarche méthodologique",
+          text: "Pour piloter ce projet complexe, nous avons appliqué la méthode DMAICS (Définir, Mesurer, Analyser, Innover, Contrôler, Standardiser). Cette approche structurée nous a permis de diagnostiquer précisément les causes racines des ruptures mécaniques et des défauts d'aspect avant de lancer nos premiers essais. En organisant les tâches de manière collaborative, nous avons pu assurer une traçabilité complète de l'étude, de la conception CAO jusqu'à la fabrication des prototypes finaux."
+        },
+        {
+          title: "Maîtrise du paramétrage et expérimentation laser",
+          text: "La mise au point technique s'est déroulée via le logiciel RDcam, nécessitant une compréhension approfondie de l'interaction laser-matière. Le passage sur une machine plus puissante provoquait initialement des brûlures excessives et des dépôts de carbone sur la face inférieure des pièces. Nous avons donc élaboré un plan d'expériences sur des éprouvettes tests afin de corréler finement la puissance du faisceau avec la vitesse de déplacement. En abaissant la puissance par rapport aux préconisations de l'abaque initial et en ajustant l'avance, nous avons réussi à obtenir des bords de coupe parfaitement nets et une gravure claire, répondant aux exigences esthétiques les plus strictes."
+        },
+        {
+          title: "Innovation du design et assemblage",
+          text: "L'amélioration de la durabilité du produit a reposé sur une refonte structurelle réalisée sous CREO. Pour pallier la fragilité des parties courbées, nous avons remplacé l'ancien motif par des poches en forme de losange. Ce design spécifique permet une meilleure répartition des contraintes lors de la flexion, garantissant la souplesse nécessaire sans compromettre la résistance mécanique. Parallèlement, nous avons dû concevoir des fentes d'assemblage précises pour intégrer la surcouche en PMMA. Des tests itératifs sur des éprouvettes de jeu ont permis de valider un ajustement de 5,1 mm, autorisant un montage manuel solide par serrage, supprimant ainsi tout recours à la colle."
+        },
+         {
+          title: "Résultats industriels et standardisation",
+          text: "L'aboutissement de cette phase expérimentale a permis de valider un support de téléphone dont le temps de cycle final est stabilisé à 3 minutes et 3 secondes. Au-delà de l'amélioration esthétique et structurelle, ce projet a conduit à la création de nouveaux standards de production. La fixation rigoureuse des paramètres de coupe pour le MDF et le PMMA, ainsi que la standardisation des fichiers de fabrication, garantissent désormais une qualité constante pour les futures séries de production."
         },
       ]
     },
