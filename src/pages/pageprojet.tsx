@@ -296,6 +296,23 @@ const ProjectPage: React.FC = () => {
           images: ['/images/projet10/soudure.jpg']
         },
       ]
+    },
+    11: { 
+      title: 'TP composites : fabrication d\'un rétroviseur',
+      description: 'Projet réalisé lors du 6e semestre de mon BUT GMP',
+      category: 'pro',
+      sections: [
+        {
+          title: "Description",
+          text: "Durant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voisin: l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs fois l'opportunité d'aller aider certains collègues du côté de la chaudronnerie, ou j'ai pu réaliser du pliage et de la soudure de pièces principalement en acier inoxydable.",
+          images: ['/images/projet10/aaa.jpg']
+        },
+        {
+          title: "Un exemple",
+          text: "Pour tester les soudures d'angle, j'ai réalisé un petit cadre de 20x20cm, en tube de 20x20x1mm d'épaisseur. J'ai commencé par couper les quatres tubes à 45° à l'aide d'une scie mécanique. Après les avoir ébavurés un à un, j'ai pu tout d'abord les pointer, pour ensuite les souder avec apport de matière sur les côtés, et sans apport de matière dans les angles.",
+          images: ['/images/projet10/soudure.jpg']
+        },
+      ]
     }
   }
 
