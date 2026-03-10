@@ -60,7 +60,7 @@ function Home() {
         <iframe
         width="560"
         height="315"
-        src="https://youtu.be/MwR_aZY-BMA"
+        src="https://youtu.be/8nkKBE67BZs"
         title="Vidéo de présentation"
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
