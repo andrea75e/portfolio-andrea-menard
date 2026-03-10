@@ -151,7 +151,7 @@ const ProjectPage: React.FC = () => {
         {
           title: "Description du projet",
           text: "Notre projet de fin de BUT consiste en la conception et la fabrication d’un triporteur électrique destiné à une crèche de la métropole. Ce triporteur doit pouvoir transporter 6 enfants de moins de 3 ans ainsi que 2 adultes sur une distance d’environ 10 km. Plusieurs contraintes importantes viennent compléter ce besoin, notamment un toit amovible pour protéger du soleil et de la pluie, l’obligation pour un adulte d’être assis avec les enfants à l’avant du triporteur, une sécurité renforcée avec des attaches à trois points pour tous les passagers, des rangements dont certains doivent maintenir la température des aliments, et une stabilité maximale en toute situation. Le projet vise donc à répondre à ces exigences tout en concevant un véhicule fonctionnel et sécurisé.",
-          images: ['/images/triporteur/caisse.png.jpg']
+          images: ['/images/triporteur/caisse.png']
         },
         {
           title: "Objectifs du projet",
