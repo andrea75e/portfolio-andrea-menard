@@ -235,7 +235,7 @@ const ProjectPage: React.FC = () => {
         {
           title: "Présentation et enjeux du projet",
           text: "Ce projet de travaux pratiques, réalisé lors du semestre 5 du BUT GMP à l'IUT d'Orléans, consistait à industrialiser une nouvelle version d'un support de téléphone en bois (MDF de 3 mm). L'objectif principal était de basculer la production d'une ancienne machine vers un nouveau centre de découpe et gravure laser plus puissant, tout en résolvant des problèmes de qualité identifiés. En tant que groupe dédié au support de téléphone, nous avons dû répondre à deux défis majeurs : augmenter la productivité pour réduire les coûts et améliorer la conception pour pallier la fragilité des zones courbées signalée par les clients. Nous avons également dû intégrer de nouveaux matériaux et proposer des options de personnalisation par gravure pour satisfaire les exigences du service marketing",
-          images: ['/images/triporteur/']
+          images: ['/images/projet8/supporttel.jpeg']
         },
         {
           text: "images non disponibles pour le moment"
