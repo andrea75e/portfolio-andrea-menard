@@ -329,14 +329,14 @@ const ProjectPage: React.FC = () => {
         },
         {
         gallery: [
-          'public/images/gallery2/résine.jpg',
-          'public/images/gallery2/résine2.JPG',
-          'public/images/gallery2/vide.png',
-          'public/images/gallery2/tracage.jpg',
-          'public/images/gallery2/dremel.JPG',
-          'public/images/gallery2/vernis.jpg',
-          'public/images/gallery2/coque.png',
-          'public/images/gallery2/couches.jpg'
+          '/images/gallery/résine.jpg',
+          '/images/gallery/résine2.JPG',
+          '/images/gallery/vide.png',
+          '/images/gallery/tracage.jpg',
+          '/images/gallery/dremel.JPG',
+          '/images/gallery/vernis.jpg',
+          '/images/gallery/coque.png',
+          '/images/gallery/couches.jpg'
         ]
         }
       ]
