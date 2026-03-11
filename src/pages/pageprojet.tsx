@@ -330,10 +330,10 @@ const ProjectPage: React.FC = () => {
         {
         gallery: [
           '/images/gallery/résine.jpg',
-          '/images/gallery/résine2.JPG',
-          '/images/gallery/vide.png',
+          '/images/gallery/résine2.jpg',
+          '/images/gallery/vide.jpg',
           '/images/gallery/tracage.jpg',
-          '/images/gallery/dremel.JPG',
+          '/images/gallery/dremel.jpg',
           '/images/gallery/vernis.jpg',
           '/images/gallery/coque.png',
           '/images/gallery/couches.jpg'
