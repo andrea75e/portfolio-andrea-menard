@@ -103,5 +103,6 @@ export const projectsData: ProjectData[] = [
     description: "Projet réalisé elors du 6e semestre de mon BUT GMP",
     category: 'scolaire',
     
+    
   },
 ]
