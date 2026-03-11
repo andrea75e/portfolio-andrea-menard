@@ -99,7 +99,7 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 11,
-    title: "Fabrication composites : réalisatio d\'un rétroviseur",
+    title: "Fabrication composites : réalisation d\'un rétroviseur",
     description: "Projet réalisé elors du 6e semestre de mon BUT GMP",
     category: 'scolaire',
     
