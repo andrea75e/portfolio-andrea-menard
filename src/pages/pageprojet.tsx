@@ -13,6 +13,7 @@ interface ProjectData {
     text?: string
     list?: string[]
     images?: string[]
+    gallery?: string[]
   }[]
 }
 
@@ -300,18 +301,44 @@ const ProjectPage: React.FC = () => {
     11: { 
       title: 'TP composites : fabrication d\'un rétroviseur',
       description: 'Projet réalisé lors du 6e semestre de mon BUT GMP',
-      category: 'pro',
+      category: 'scolaire',
       sections: [
         {
-          title: "Description",
-          text: "Durant mon alternance chez STMicroelectronics Tours, j'ai été amenée plusieurs fois à travailler dans l'atelier voisin: l'atelier plasturgie & chaudronnerie. De ce fait, j'ai eu plusieurs fois l'opportunité d'aller aider certains collègues du côté de la chaudronnerie, ou j'ai pu réaliser du pliage et de la soudure de pièces principalement en acier inoxydable.",
+          title: "Concept et fabrication",
+          text: "Ce projet technique, réalisé en équipe de trois, consistait à produire un rétroviseur fonctionnel à partir d'un modèle numérique 3D imposé. L'enjeu principal était de maîtriser l'ensemble du cycle de fabrication, de la création des moules de mise en forme jusqu'aux finitions esthétiques, en intégrant une grande diversité de matériaux et de procédés de transformation.",
           images: ['/images/projet10/aaa.jpg']
         },
         {
-          title: "Un exemple",
-          text: "Pour tester les soudures d'angle, j'ai réalisé un petit cadre de 20x20cm, en tube de 20x20x1mm d'épaisseur. J'ai commencé par couper les quatres tubes à 45° à l'aide d'une scie mécanique. Après les avoir ébavurés un à un, j'ai pu tout d'abord les pointer, pour ensuite les souder avec apport de matière sur les côtés, et sans apport de matière dans les angles.",
-          images: ['/images/projet10/soudure.jpg']
+          title: "Objectifs",
+          list: [
+            "Fabrication de la coque : Réaliser une pièce structurelle légère et résistante en composite (fibre de carbone).",
+            "Usinage multi-matériaux : Produire un insert en mousse technique et des éléments de fixation (tige et support).",
+            "Découpe de précision : Réaliser un miroir parfaitement ajusté par jet d'eau dans une tôle d'aluminium.",
+            "Conception d'outillages : Créer un moule étanche pour le moulage sous vide et un gabarit de détourage pour la finition de la coque.",
+          ]
         },
+         {
+          
+          text: "La phase critique du projet a reposé sur la mise en œuvre d'un moulage au contact sous vide, nécessitant une préparation rigoureuse de l'outillage et du drapage en fibre de carbone pour garantir une coque légère et sans porosités. En parallèle, nous avons géré la fabrication des composants internes et structurels : un insert en mousse technique a été usiné sur commande numérique (Roland) pour épouser parfaitement la forme de la coque, tandis que le miroir a été découpé avec précision dans une tôle d'aluminium par jet d'eau.",
+      
+        },
+        {
+          
+          text: "Une fois la coque extraite du moule, nous avons utilisé un support de traçage conçu spécifiquement pour garantir l'exactitude du détourage avant l'ajustage final et le vernissage. Ce projet a permis de valider des compétences clés en ingénierie de fabrication, notamment la gestion des interfaces entre des pièces issues de procédés variés et la conception d'outillages dédiés. Le résultat final démontre notre capacité à piloter une fabrication complexe en respectant des exigences dimensionnelles et esthétiques strictes.",
+      
+        },
+        {
+        gallery: [
+          '/images/gallery2/résine.jpg',
+          '/images/gallery2/résine2.JPG',
+          '/images/gallery2/vide.png',
+          '/images/gallery2/tracage.jpg',
+          '/images/gallery2/dremel.JPG',
+          '/images/gallery2/vernis.jpg',
+          '/images/gallery2/coque.png',
+          '/images/gallery2/couches.jpg',
+        ]
+        }
       ]
     }
   }
