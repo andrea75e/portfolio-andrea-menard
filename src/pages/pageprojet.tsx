@@ -126,7 +126,7 @@ const ProjectPage: React.FC = () => {
         {
           title: "Description du projet",
           text: "Dans le cadre de ma formation en BUT GMP, j'ai réalisé un projet de conception d'un système mécanique complexe. Ce projet m'a permis d'appliquer les connaissances théoriques acquises en cours.",
-          images: ['/images/be6/segway1.png','/images/be6/segway.png']
+          images: ['/images/be6/segway.png']
         },
         {
           title: "Grandes étapes",
