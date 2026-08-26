@@ -82,12 +82,31 @@ const ProjectPage: React.FC = () => {
           ]
         },
          {
+          title: "Modélisation 3D",
           text: "J’ai commencé par refaire toute la conception assistée par ordinateur (CAO) de l’outil afin de l’adapter aux trois types de boîtiers différents que nous utilisons. Cette étape a été essentielle pour garantir que l’outil puisse maintenir chaque type de boîtier avec précision et stabilité lors des opérations de dépôt et de coupe des fils métalliques. Une fois les modèles CAO validés, nous avons procédé à l’usinage interne de certaines pièces de l’outil, réalisées directement dans notre atelier pour répondre aux besoins spécifiques de l’assemblage.",
           images: ['/images/outillage/TO220.png','/images/outillage/TO247.png']
         },
         {
+          title: "Simulation et sous-traitance",
           text: "Par ailleurs, avec certaines pièces très précises, j'ai réalisé des simulations d'efforts sur SolidWorks Simulation afin de vérifier la déformation des composants et le déplacements des surfaces subissant les efforts. Celles nécessitant une découpe au fil ou une rectification fine, ont été confiées à des sous-traitants spécialisés. Ce choix a permis de bénéficier de savoir-faire et d’équipements adaptés à ces opérations délicates, garantissant ainsi la qualité et la fiabilité de l’ensemble de l’outil conçu pour l’assemblage des composants électroniques. Cette combinaison de réalisation interne et de sous-traitance a optimisé les délais, les coûts et la qualité finale du prototypage industriel.",
           images: ['/images/outillage/simulation.png','/images/outillage/simulation2.png']
+        },
+        {
+          title: "Choix des matériaux & Traitements",
+          list: [
+            "Acier inoxydable Z100CD17 pour les clamps découpés au fil : haute dureté et excellente tenue aux contraintes vibratoires ultrasoniques.",
+            "Pièces en inox rectifiées : opération de rectification plane indispensable pour garantir une planéité micrométrique et une surface d'appui sans défaut.",
+            "Aluminium 7075 pour le corps de structure : compromis idéal entre légèreté et haute rigidité mécanique.",
+            "Anodisation de surface : protection anticorrosion et résistance accrue aux frottements répétés en production."
+          ]
+        },
+        {
+          title: "Sécurité opérateur & Ergonomie",
+          text: "Un des enjeux majeurs de cette reconception était d'améliorer la sécurité du poste. L'ancien outillage présentait des risques de pincement lors du bridage. J'ai repensé le système avec un serrage inversé par le haut actionné par vérin, complété par l'intégration d'électrovannes et de capteurs de sécurité pour protéger totalement l'opérateur pendant les cycles de chargement."
+        },
+        {
+          title: "Montage, ajustage & Mise au point machine",
+          text: "Après la fabrication et la réception des pièces sous-traitées, j'ai participé à l'assemblage complet de l'ensemble, aux ajustements métrologiques et à la mise au point directe sur la machine de wire bonding (Astérion) afin de valider la répétabilité du positionnement en conditions réelles de production."
         },
       ]
     },

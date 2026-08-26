@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer className="bg-gray-500 text-black flex flex-col items-center mt-auto py-4">
-      <p className="mb-2 text-base">Dernière mise à jour : 2025</p>
+      <p className="mb-2 text-base">Dernière mise à jour : août 2026</p>
       <div className="flex space-x-4">
         <a href="mailto:andreamenard23@gmail.com">
           <button className="!bg-black text-white hover:text-gray-500 px-4 py-2 bg-black-600 rounded hover:bg-gray-700">
