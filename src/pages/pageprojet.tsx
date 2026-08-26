@@ -81,6 +81,18 @@ const ProjectPage: React.FC = () => {
             "Optimiser la qualité, la fiabilité et l’efficacité globale du processus d’assemblage des composants électroniques grâce à cet outil repensé."
           ]
         },
+        {
+          title: "Cadrage du projet (Méthode QQOQCP)",
+          text: "Pour définir précisément le cahier des charges fonctionnel et cerner l'ensemble des contraintes techniques et humaines avant la phase d'étude, j'ai mis en place une analyse QQOQCP :",
+          list: [
+            "Qui ? : Destiné aux opérateurs et techniciens de la ligne de production R&D (Service P&AT chez STMicroelectronics).",
+            "Quoi ? : Reconception d'un outillage de maintien et de mise en position mécanique pour l'opération de wire bonding.",
+            "Où ? : Sur la machine d'assemblage et soudure filaire Astérion, en atelier / salle blanche.",
+            "Quand ? : Réalisé sur mon année d'alternance, avec une phase d'étude et de simulation préliminaire de 5 semaines.",
+            "Comment ? : Par modélisation 3D (SolidWorks), simulations RDM, usinage interne en atelier (CUCN), découpe fil/rectification sous-traitées et sécurisation pneumatique.",
+            "Pourquoi ? : Adapter un outillage unique et polyvalent à 3 types de boîtiers, fiabiliser la tenue aux ultrasons et supprimer définitivement le risque de pincement opérateur."
+          ]
+        },
          {
           title: "Modélisation 3D",
           text: "J’ai commencé par refaire toute la conception assistée par ordinateur (CAO) de l’outil afin de l’adapter aux trois types de boîtiers différents que nous utilisons. Cette étape a été essentielle pour garantir que l’outil puisse maintenir chaque type de boîtier avec précision et stabilité lors des opérations de dépôt et de coupe des fils métalliques. Une fois les modèles CAO validés, nous avons procédé à l’usinage interne de certaines pièces de l’outil, réalisées directement dans notre atelier pour répondre aux besoins spécifiques de l’assemblage.",
