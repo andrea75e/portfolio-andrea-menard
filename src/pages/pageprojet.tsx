@@ -202,6 +202,17 @@ const ProjectPage: React.FC = () => {
           text: "Je suis responsable, avec un de mes onze camarades, de la partie motorisation du triporteur. Cela inclut le choix du ou des moteurs adaptés aux performances attendues ainsi que leur implantation optimale dans la structure du véhicule. Je travaille aussi sur la transmission, c’est-à-dire sur le système qui transmet la puissance du moteur aux roues, en veillant à l’efficacité et la fiabilité. Enfin, je suis en charge de la commande du moteur, ce qui consiste à concevoir et implémenter le système de contrôle électronique permettant de gérer la vitesse, le couple et la sécurité du moteur afin d’assurer un fonctionnement fluide et sécurisé du triporteur.",
           images: ['/images/triporteur/triporteur.png']
         },
+        {
+          title: "Conception sur Creo, Prototypage et Transmission",
+          text: "Pour valider le comportement cinématique, l'architecture mécanique et l'encombrement du triporteur avant la réalisation finale, nous avons travaillé en binôme de manière complémentaire. Pendant que mon binôme prenait en charge la programmation et le pilotage du moteur, j'ai réalisé la modélisation CAO complète d'une maquette fonctionnelle à l'échelle 1:4 sur PTC Creo Parametric, ainsi que toute la fabrication mécanique associée :",
+          list: [
+            "Étude cinématique & CAO sous Creo : Modélisation à l'échelle 1:4 en intégrant le dimensionnement des pignons et les rapports de réduction réels du moyeu à vitesses intégrées Nexus utilisé sur le triporteur échelle 1.",
+            "Prototypage par Impression 3D : Fabrication additive des pièces de liaison et supports pour valider rapidement les géométries, les débattements et les jeux d'assemblage.",
+            "Usinage des composants structurels : Usinage en atelier des pièces nécessitant une tenue mécanique accrue (axes, platines et guidages).",
+            "Transmission par courroies & Montage : Sélection, dimensionnement et commande des courroies adaptées aux entraxes définis sur Creo, suivis de l'assemblage complet, des réglages de tension et de l'intégration avec la motorisation programmée par mon binôme."
+          ],
+          images: ['/images/triporteur/maquette.jpeg', ]
+        },
       ]
     },
     6: { 
