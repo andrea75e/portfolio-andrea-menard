@@ -84,7 +84,7 @@ const ProjectPage: React.FC = () => {
          {
           title: "Modélisation 3D",
           text: "J’ai commencé par refaire toute la conception assistée par ordinateur (CAO) de l’outil afin de l’adapter aux trois types de boîtiers différents que nous utilisons. Cette étape a été essentielle pour garantir que l’outil puisse maintenir chaque type de boîtier avec précision et stabilité lors des opérations de dépôt et de coupe des fils métalliques. Une fois les modèles CAO validés, nous avons procédé à l’usinage interne de certaines pièces de l’outil, réalisées directement dans notre atelier pour répondre aux besoins spécifiques de l’assemblage.",
-          images: ['/images/outillage/modélisation.png',]
+          images: ['/images/outillage/modelisation3D.png',]
         },
         {
           title: "Simulation et sous-traitance",
